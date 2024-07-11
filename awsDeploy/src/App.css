@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  margin: 0;
+}
+.blueCol{
+  color: #2699D0 !important;
+}
+.bgBlue{
+  background-color: #2699D0 !important;
+}
+.bgDarkBlue{
+  background-color: #007e91;
+}
+.darkBlueCol{
+  color: #007e91;
+}
+.fw-bold2{
+  font-weight: 500;
+}
+.form-control:focus,.btn:focus,.navbar-toggler,.form-select:focus,.accordion-button:focus{
+  box-shadow: none !important;
+}
+.navbar-toggler,.accordion-button:focus{
+  border: none;
+}
+
+.searchBy{
+  border: 1px solid lightgrey;
+  background-color: white;
+  padding: 2px;
+  border-radius: 50px ;
+  overflow: hidden;
+}
+
+.dropData{
+  top:calc(0% - -102%);
+  left: 0;
+  z-index: 10000;
+}
+.prodData{
+  overflow-y: scroll;
+  max-height: 400px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px lightgray;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: lightgray;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: #56cfe1; 
+  border-radius: 10px;
+}
+
+
+.navBtn,.navInput{
+  border: none;
+  padding: 9px 35px;
+}
+.navSelect{
+  padding: 0 30px 0 15px;
+  border: none;
+}
+.navBtn{
+  background-color: #2699D0;
+  border-radius: 50px ;
+  font-weight: 500;
+  color: white;
+}
+.navInput:focus,.navSelect:focus{
+  outline: none;
+}
+.navInput::placeholder{
+  color: black;
+}
+.divInput{
+  position: relative;
+}
+.divInput::before{
+  content: '';
+  background-color: lightgray;
+  width: 1.5px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  margin: 0 0 0 10px ;
+}
+
+/* nav2 */
+.nav2Bottom{
+  cursor: pointer;
+}
+.nav2Bottom:hover{
+  background-color: #222222;
+}
+.corousalContainer{
+  overflow: hidden;
+}
+.innerCarousal{
+  transition: all 0.5s;
+}
+.carousalImage{
+  background: center no-repeat ;
+  background-size: cover;
+}
+.carousalBtn{
+  font-size: 16px;
+}
+
+.bar::after{
+  content: "";
+  background-color: #56cfe1;
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.latestProdBtn{
+  border-radius: 50px;
+}
+.latestProdBtn:hover{
+  background-color: #222222;
+  color: white;
+}
+.latestProductImg img{
+  transition: all 1s;
+}
+.latestProductImg{
+  overflow: hidden;
+}
+.latestProductContainer:hover .latestProductImg img{
+  transform: scale(1.2);
+}
+.productSortDesc{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.addCartBtn{
+  transition: all 0.5s;
+  cursor: pointer;
+  top: 0;
+  right: -30%;
+}
+.addCartBtn:hover p{
+  background-color: #2699D0 !important;
+}
+.addCartBtn:hover p i{
+  color: white;
+}
+.quickViewBtn{
+  background-color: rgba(38, 153, 208,0.7) !important;
+  transition: all 0.5s;
+  cursor: pointer;
+  bottom: -22%;
+}
+.cardImg{
+  overflow: hidden;
+}
+.ProductCard:hover .quickViewBtn{
+  bottom: 0;
+}
+.ProductCard:hover .addCartBtn{
+  right: 0;
+}
+.ProductCard:hover .cardImg img {
+  transition: all 1s;
+}
+.ProductCard:hover .cardImg img {
+  transform: scale(1.1);
+}
+
+.modal-backdrop{
+  z-index: 1040;
+}
+.accordion-item{
+  border: 0;
+}
+.accordion-button:not(.collapsed){
+  background-color: white;
+}
+
+
+/* html{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  
+} */
+.fb:hover{
+  background-color: blue;
+  color: white;
+}
+.google:hover{
+  background-color: red;
+  color: white;
+}
+
+.cartBtnQuantity{
+  border-radius: 0%;
+}
